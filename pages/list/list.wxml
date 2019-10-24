@@ -1,0 +1,45 @@
+<view class="list-top" style="background-image: url(../../assets/images/listbg.png)">
+  <view class="list-top-box">
+    <view class="list-top-item">
+     <view><image src="../../assets/images/11.png"></image></view>
+      <view class="top-item-con">
+        <text>名企兼职</text>
+        <text class="ft12 c99" style="margi-top: 10rpx;">大牌企业在线招人</text>
+      </view>
+    </view>
+    <view class="list-top-item">
+     <view><image src="../../assets/images/22.png"></image></view>
+      <view class="top-item-con">
+        <text>线上兼职</text>
+        <text class="ft12 c99" style="margi-top: 10rpx;">足不出户宅家赚钱</text>
+      </view>
+    </view>
+    <view class="list-top-item">
+     <view><image src="../../assets/images/33.png"></image></view>
+      <view class="top-item-con">
+        <text>本地精选</text>
+        <text class="ft12 c99" style="margi-top: 10rpx;">钱多事少离家近</text>
+      </view>
+    </view>
+    <view class="list-top-item">
+     <view><image src="../../assets/images/44.png"></image></view>
+      <view class="top-item-con">
+        <text>简单小任务</text>
+        <text class="ft12 c99" style="margi-top: 10rpx;">小手一点钱就到手</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="sb-filter">
+  <picker class="sb-filter-item sb-filter-all">全部岗位</picker>
+  <picker class="sb-filter-item sb-filter-sort">默认排序</picker>
+  <picker class="sb-filter-item sb-filter-more">筛选</picker>
+</view>
+<view class="sb-list" wx:for="{{ 20 }}" wx:key="index">
+  <view class="sb-list-L">
+    <text class="sb-list-tit">麦当劳招实习经理...</text>
+    <text class="sb-list-tip">根据个人和餐厅需求安排</text>
+    <text class="sb-list-tip">麦当劳(北京路店)</text>
+  </view>
+  <view class="sb-list-R">15元/小时</view>
+</view>

@@ -1,0 +1,27 @@
+
+.index-search { display: flex;justify-content: space-between;align-items: center;background-color: #10094d;height: 200rpx;padding: 0 40rpx;color: #fff; }
+.index-search .index-search-L{ position: relative;display: flex;justify-content: center;align-items: center;padding-right: 20rpx;font-size: 14px; }
+index-search .index-search-L text { font-size: 14px; }
+.index-search .index-search-R{ position: relative;flex: 1; }
+.index-search .index-search-L .index-locat-icon{ background: url('http://www.yi-zu.com/xyjx/images/shop/dn.png') no-repeat;background-size: contain;display: inline-block;width: 20rpx;height:20rpx; }
+.index-search .index-search-R .index-serch-icon{ position: absolute;width: 30rpx;height:30rpx;background: url('http://www.yi-zu.com/xyjx/images/index/search2.png') no-repeat;background-size: contain;top: 50%;transform: translateY(-50%);left: 20rpx; }
+.index-search .index-search-R input { background-color: rgba(255, 255, 255, .3);height: 60rpx;border-radius: 30rpx;padding-left: 60rpx;font-size: 14px;line-height: 60rpx; }
+
+.index-nav { display: flex;justify-content: space-around;align-items: center;widows: 100%;margin: 20rpx 0 ; }
+.index-nav .nav-block{ border-radius: 20rpx;background-color: #fff;display: flex;flex-direction: column;align-items: flex-start;width: 30%;height: 160rpx;padding: 20rpx;box-sizing: border-box;position: relative;overflow: hidden; }
+.index-nav .nav-block .nav-tit { font-size: 16px;color: #333;padding-bottom: 10rpx; }
+.index-nav .nav-block .nav-tip { font-size: 13px;color: #999; }
+.index-nav .nav-block image { width: 100rpx;height: 78rpx;position: absolute;right: 0;bottom: 0; }
+
+
+.index-banner { padding-bottom: 20rpx; }
+.index-banner .sb-title{ margin-bottom: 20rpx; }
+.index-banner scroll-view{ white-space: nowrap; }
+.index-banner scroll-view .index-scroll-item{ width: 40%;box-sizing: border-box;background: linear-gradient(-45deg,#ff786a, #fe3a7a);height: 160rpx;display: inline-block;margin-right: 20rpx;border-radius: 20rpx;color: #fff; }
+.index-banner scroll-view .index-scroll-item .scroll-block{ border-radius: 20rpx;display: flex;flex-direction: column;align-items: flex-start;padding: 20rpx;box-sizing: border-box;position: relative;overflow: hidden;background-color: transparent; }
+.index-banner scroll-view .index-scroll-item:first-child { margin-left: 20rpx; }
+.index-banner scroll-view .index-scroll-item:nth-child(3n) { background: linear-gradient(-45deg,#88edf7, #44d1df); }
+.index-banner scroll-view .index-scroll-item:nth-child(3n-1) { background: linear-gradient(-45deg,#fdc409, #fea115); }
+.index-banner scroll-view .index-scroll-item .scroll-block image { position: absolute;top: 50%;transform: translateY(-50%);right: 20rpx;width: 80rpx;height: 80rpx;border-radius: 50%; }
+
+.index-jinpin { padding: 20rpx; }

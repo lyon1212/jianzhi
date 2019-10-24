@@ -1,0 +1,70 @@
+<view class="index-search">
+  <view class="index-search-L">
+    <text space="ensp">广州 </text>
+    <text class="index-locat-icon"></text>
+  </view>
+  <view class="index-search-R">
+    <text class="index-serch-icon"></text>
+    <input placeholder="大家都在搜索"></input>
+  </view>
+</view>
+<view class="index-nav">
+  <view class="nav-block" style="background-color: #feeeef">
+    <text class="nav-tit">每日必做</text>
+    <text class="nav-tip">快速赚钱</text>
+    <image src="../../assets/images/nav01.png"></image>
+  </view>
+  <view class="nav-block" style="background-color: #e9fff3">
+    <text class="nav-tit">分享任务</text>
+    <text class="nav-tip">急速赚钱</text>
+    <image src="../../assets/images/nav02.png"></image>
+  </view>
+  <view class="nav-block" style="background-color: #eff8ff">
+    <text class="nav-tit">0元评测</text>
+    <text class="nav-tip">分享好物</text>
+    <image src="../../assets/images/nav03.png"></image>
+  </view>
+</view>
+<view class="index-banner">
+  <view class="sb-title">本地兼职</view>
+  <scroll-view scroll-x>
+    <view class="index-scroll-item" wx:for="{{ tmpList }}" wx:key="index">
+      <view class="scroll-block">
+        <text class="ft16">{{ item.name }}</text>
+        <text>-</text>
+        <text class="ft12">再招职位 {{ item.num }} 个</text>
+        <image src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3776742502,294405296&fm=58&bpow=1024&bpoh=1024"></image>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view class="index-locat">
+  <view class="sb-list" wx:for="{{ 3 }}" wx:key="index">
+    <view class="sb-list-L">
+      <text class="sb-list-tit">麦当劳招实习经理...</text>
+      <text class="sb-list-tip">麦当劳(北京路店)</text>
+    </view>
+    <view class="sb-list-R">15元/小时</view>
+  </view>
+</view>
+<view class="index-zaijia">
+  <view class="sb-title">宅家赚钱</view>
+  <view class="sb-list" wx:for="{{ 5 }}" wx:key="index">
+    <image class="sb-list-img" src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2531975766,2518958733&fm=58&bpow=690&bpoh=690"></image>
+    <view class="sb-list-L">
+      <text class="sb-list-tit">饿了么招实习经理...</text>
+      <text class="sb-list-tip">麦当劳(北京路店)</text>
+    </view>
+    <view class="sb-list-R">15元/小时</view>
+  </view>
+</view>
+<view class="index-jinpin">
+  <view class="sb-title" style="padding-bottom: 40rpx;">精品兼职</view>
+  <view class="sb-tuwen" wx:for="{{ 10 }}" wx:key="index">
+    <view class="sb-tuwen-mask">
+      <text class="sb-tuwen-tit">光控体感小夜灯调试员</text>
+      <text class="sb-tuwen-sliver"></text>
+      <text class="sb-tuwen-tip">长夜柔光相伴</text>
+    </view>
+  </view>
+</view>

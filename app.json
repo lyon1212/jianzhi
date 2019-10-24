@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/more/more",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大学生兼职",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/index.png",
+        "selectedIconPath": "/assets/tabbar/index_s.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "岗位",
+        "iconPath": "/assets/tabbar/list.png",
+        "selectedIconPath": "/assets/tabbar/list_s.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "/assets/tabbar/more.png",
+        "selectedIconPath": "/assets/tabbar/more_s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/assets/tabbar/my.png",
+        "selectedIconPath": "/assets/tabbar/my_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
